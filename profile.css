@@ -1,0 +1,184 @@
+body{
+    /* margin: 0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+/* navbar */
+
+.navbar-x {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: salmon;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.navicon {
+    max-height: 5vh;
+    padding-left: 1vw;
+    padding-top: 0.5vh;
+}
+
+.navitem {
+    float: right;
+    height: auto;
+    width: auto;
+}
+
+.navitem a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    /* background-color: #111; */
+    background-color: lightcoral;
+    color:crimson
+}
+
+.header-wrapper{
+    margin-bottom: 50px;
+}
+.home img{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+section{
+    margin: outo;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #364f6b;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+p {
+    font-size: 20px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #364f6b
+}
+
+/* .partner-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner{
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+.kartu-partner{
+    width: 150px;
+    height: 150px;
+} */
+
+#contact {
+    background-color: salmon;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 980px) {
+    .navitem {
+        width: 100%;
+        flex-direction: column;
+        padding-right: 10px;
+        background-color: salmon;
+    }
+
+    .header-wrapper{
+        padding-bottom: 250px;
+    }
+
+    kolom img{
+        width: 200px;
+
+    }
+
+    footer {
+        margin-right: 0px;
+    }
+    
+
+    
+}
